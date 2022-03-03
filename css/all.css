@@ -1,0 +1,20 @@
+:root{
+    --bs-font-sans-serif: system-ui,-apple-system,'Microsoft JhengHei',微軟正黑體,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.banner{
+    background-image: url(https://images.unsplash.com/photo-1567566221756-5282476c4684?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
+    background-position: center;
+    background-size: cover;
+}
+.nav{
+    height: 10rem;
+}
+@media(min-width:992px){
+    .nav{
+        height: auto;
+    }
+}
+
+.goTopBtn{
+    z-index: 1299;
+}
